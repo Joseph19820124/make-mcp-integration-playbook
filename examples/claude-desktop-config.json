@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "make-automation": {
+      "command": "node",
+      "args": ["/path/to/your/make-mcp-server/dist/server.js"],
+      "env": {
+        "MAKE_WEBHOOK_URL": "https://hook.eu1.make.com/xxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
+
+// 配置文件位置：
+// macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
+// Windows: %APPDATA%\Claude\claude_desktop_config.json
+// Linux: ~/.config/Claude/claude_desktop_config.json
